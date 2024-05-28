@@ -43,12 +43,15 @@ def days_in_month(year, month):
 
 
 # Example usage
-year = 2024
-month = 5
+year = 2020
+month = 2
+
+months = ["January", "February", "March", "April", "May", "June",
+          "July", "August", "September", "October", "November", "December"]
 
 if is_leap_year(year):
     print(f"{year} is a leap year.")
 else:
     print(f"{year} is not a leap year.")
 
-print(f"{month} has {days_in_month(year, month)} days.")
+print(f"{months[month-1]} has {days_in_month(year, month)} days.")
