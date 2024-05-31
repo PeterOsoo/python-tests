@@ -55,3 +55,5 @@ else:
     print(f"{year} is not a leap year.")
 
 print(f"{months[month-1]} has {days_in_month(year, month)} days.")
+
+print("Code is working")
